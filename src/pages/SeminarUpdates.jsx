@@ -1,5 +1,3 @@
-import React from 'react';
-
 const SeminarUpdates = () => {
   const images = Array.from({ length: 5 }, (_, i) => `src/assets/${i + 1}.jpg`);
 
