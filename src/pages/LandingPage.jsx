@@ -240,18 +240,32 @@ function LandingPage() {
                 </a>{" "}
               </p>
             </div>
+<div className="flex items-center mb-4">
+  <FaLink size={20} className="text-[#043C2C] mr-2" />
+  <p className="text-md font-medium text-[#043C2C]">
+    <a
+      href="/schedule"
+      className="no-underline flex items-center text-md font-semibold "
+    >
+      Program Schedule
+    </a>{" "}
+  </p>
+</div>
 
-            <div className="flex items-center mb-4">
-              <FaLink size={20} className="text-[#043C2C] mr-2" />
-              <p className="text-md font-medium text-[#043C2C]">
-                <a
-                  href="/schedule"
-                  className="no-underline flex items-center text-md font-semibold "
-                >
-                  Program Schedule
-                </a>{" "}
-              </p>
-            </div>
+<div className="flex items-center mb-4">
+  <FaLink size={20} className="text-[#043C2C] mr-2" />
+  <p className="text-md font-medium text-[#043C2C]">
+    <a
+      href="/seminarupdates"
+      className="no-underline flex items-center text-md font-semibold "
+    >
+      Seminar Updates
+    </a>{" "}
+  </p>
+</div>
+
+
+            
             <a
               target="_blank"
               href="https://docs.google.com/forms/d/e/1FAIpQLSfUU16gu_51u1-1dS0R84-R7SsuLLP6-r1ZpstccCVgNTFbJA/viewform"
