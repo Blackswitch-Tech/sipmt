@@ -1,5 +1,14 @@
+import React from 'react';
+
+// Import images
+import image1 from "../assets/1.jpg";
+import image2 from "../assets/2.jpg";
+import image3 from "../assets/3.jpg";
+import image4 from "../assets/4.jpg";
+import image5 from "../assets/5.jpg";
+
 const SeminarUpdates = () => {
-  const images = Array.from({ length: 5 }, (_, i) => `src/assets/${i + 1}.jpg`);
+  const images = [image1, image2, image3, image4, image5];
 
   return (
     <section className="bg-white py-10 px-4 sm:px-6 lg:px-8 text-[#1c4330] min-h-screen pt-24">
@@ -9,10 +18,10 @@ const SeminarUpdates = () => {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {images.map((src, index) => (
+          {images.map((image, index) => (
             <div key={index} className="aspect-w-16 aspect-h-9">
               <img
-                src={src}
+                src={image}
                 alt={`Seminar Update ${index + 1}`}
                 className="object-cover w-full h-full rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
               />
