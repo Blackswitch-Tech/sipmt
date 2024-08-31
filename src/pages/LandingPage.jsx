@@ -206,18 +206,6 @@ function LandingPage() {
                 Alphonsian Pastoral Institute, Arunapuram, Pala
               </p>
             </div>
-
-            <div className="flex items-center mb-4">
-              <FaLink size={20} className="text-[#043C2C] mr-2" />
-              <p className="text-md font-medium text-[#043C2C]">
-                <a
-                  href="/invitation"
-                  className="no-underline flex items-center text-md font-semibold "
-                >
-                  Invitation
-                </a>{" "}
-              </p>
-            </div>
             <div className="flex items-center mb-4">
               <FaLink size={20} className="text-[#043C2C] mr-2" />
               <p className="text-md font-medium text-[#043C2C]">
@@ -240,17 +228,6 @@ function LandingPage() {
                 </a>{" "}
               </p>
             </div>
-<div className="flex items-center mb-4">
-  <FaLink size={20} className="text-[#043C2C] mr-2" />
-  <p className="text-md font-medium text-[#043C2C]">
-    <a
-      href="/schedule"
-      className="no-underline flex items-center text-md font-semibold "
-    >
-      Program Schedule
-    </a>{" "}
-  </p>
-</div>
 
 <div className="flex items-center mb-4">
   <FaLink size={20} className="text-[#043C2C] mr-2" />
